@@ -5,6 +5,9 @@ import java.util.TreeMap;
 
 public class Program {
     public static void main(String[] args) {
+//
+// Para fazer push
+//
 //TreeMap ordena pela chave na saida
 //Não aceita repeticao na chave , Se houver ele sobrepoe com o ultimo valor repetido
 //
