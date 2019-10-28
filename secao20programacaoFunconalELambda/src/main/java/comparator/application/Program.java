@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 /*
+    Subiu para remoto github
 • Suponha uma classe Productcom os atributos namee price.
 • Podemos implementar a comparação de produtos por meio da implementação da interface Comparable<Product>
 • Entretanto, desta forma nossa classe não fica fechada para alteração: se o critério de comparação mudar,
