@@ -1,11 +1,16 @@
 package dominio;
 
+import javax.persistence.*;
 import java.io.Serializable;
-
+@Entity
 public class Pessoa implements Serializable {
     private static final long serialVersionUid = 1L;
-
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
+//    @Column(name="nomecompleto")
+//  O JPA cria a coluna da tabela conforme definido na classe. Se quiser alterar tem que entrar com
+//  o @Column...
     private String  nome;
     private String  email;
 
